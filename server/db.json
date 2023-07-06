@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$kwUCeJmCfiHquwV46xcZ0O9YSSJFz8vXqH/xqbpdsy.OuwAlGD.GO",
+      "username": "admin",
+      "role": "ADMIN",
+      "id": 1
+    },
+    {
+      "email": "hbcordova10@gmail.com",
+      "password": "$2a$10$0/Du/YjDqqB5Bfl5dxwuY.KuC016H2.fvfx5UCQ0ZFrj1XqdSy38O",
+      "username": "hbcordova10",
+      "role": "CUSTOMER",
+      "id": 3
+    },
+    {
+      "email": "nose@gmail.com",
+      "password": "$2a$10$YYUbjRkhqj1ep1ktKvEKouIhAzqurKVaR3hzWJeQMp456aqjZzwwC",
+      "username": "nose",
+      "role": "CUSTOMER",
+      "id": 4
+    },
+    {
+      "email": "enzo@gmail.com",
+      "password": "$2a$10$6OWHybaG8rYylv43OXlVD.Vg83SEQDxcnW35a8TViNSoixAQeBOPy",
+      "username": "enzo",
+      "role": "CUSTOMER",
+      "id": 5
+    }
+  ],
+  "properties": [
+    {
+      "urlPhoto": "https://www.adondevivir.com/noticias/wp-content/uploads/2016/08/depto.jpg",
+      "name": "Departamento 1",
+      "ubication": "Santiago de Surco",
+      "width": 12,
+      "length": 24,
+      "bedrooms": 3,
+      "price": 300000,
+      "currency": "PEN",
+      "id": 1
+    },
+    {
+      "urlPhoto": "https://media.admagazine.com/photos/6317bd95d75f2fd76bd148aa/master/w_1600%2Cc_limit/APR%2520-%2520Nooor%2520-%2520Appartement%252045m2%2520rue%2520de%2520Grenelle%2520-%2520cre%25CC%2581dit%2520Nicolas%2520MatheusG19_2044.jpg",
+      "name": "Departamento 2",
+      "ubication": "La Molina",
+      "width": 12,
+      "length": 24,
+      "bedrooms": 3,
+      "price": 400000,
+      "currency": "USD",
+      "id": 2
+    },
+    {
+      "urlPhoto": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1wcm9qZWN0cy1hZG1pbi1pbWFnZXMiLCJrZXkiOiIxMTc3YTFkNi1iY2Q1LTRkOGUtYTMxMi01YTE3OWM5ZmU5ZWMvMTE3N2ExZDYtYmNkNS00ZDhlLWEzMTItNWExNzljOWZlOWVjX2M0MjZmNWRiLTBjNTYtNDY5OC05YzM2LWM5MmVlOGFhMmZkMi5qcGciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjQwLCJoZWlnaHQiOjQ4MCwiZml0IjoiY292ZXIifX19",
+      "name": "Deparmento en Lima Peru",
+      "ubication": "Miraflores",
+      "width": 65,
+      "length": 20,
+      "bedrooms": 2,
+      "price": 415000,
+      "currency": "PEN",
+      "id": 3
+    }
+  ],
+  "entities": [
+    {
+      "name": "Banco de Credito del Perú",
+      "currency": "PEN",
+      "amountMin": 65001,
+      "amountMax": 465001,
+      "deadlineMin": 5,
+      "deadlineMax": 25,
+      "annualRateType": "EFECTIVA",
+      "annualRateMin": 9.9,
+      "annualRateMax": 12.2,
+      "id": 1
+    },
+    {
+      "name": "Interbank",
+      "currency": "PEN",
+      "amountMin": 65200,
+      "amountMax": 464200,
+      "deadlineMin": 5,
+      "deadlineMax": 30,
+      "annualRateType": "EFECTIVA",
+      "annualRateMin": 8.8,
+      "annualRateMax": 12.2,
+      "id": 2
+    }
+  ]
+}

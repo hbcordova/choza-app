@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #CE67FF;
+  /* --primary-color: #008000; */
+  --seconday-color: rgb(171, 66, 253);
+  --warning: #FF9D43;
+  --gray-light: #BABABA;
+  --gray-dark: #919191;
+  --error: #dc3545;
+  --success: #28a745;
+  --excel: #1d6f42;
+  --info: #007BFF;
+  --info-light: #479efb;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 98%;
+  margin: 0 auto;
+}
